@@ -1,6 +1,3 @@
 *.csv
 *.xls
 *.data
-regression.ipynb
-regression2.ipynb
-KNN.py
