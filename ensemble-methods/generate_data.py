@@ -23,3 +23,6 @@ print(selected_columns) #MUST BE PRINTED
 selected_columns = np.append(selected_columns, target_column)
 sample_df = all_data[selected_columns].copy()
 sample_df.to_csv(output_path)   #From HERE YOU CAN SPLIT FOR TRAIN ,VALID AND TEST
+
+
+""" 0NOTE: RUN IT AS IT IS TO GET THE CSV FILE WE'LL BE USING"""
